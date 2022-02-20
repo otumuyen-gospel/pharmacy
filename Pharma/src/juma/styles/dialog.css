@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 15, 2020, 6:34:25 AM
+    Author     : user1
+*/
+
+#root{
+    -fx-background-color:#FFF;
+    -fx-border-color:#CCC;
+    -fx-padding:20px;
+}
+#root .label{
+    -fx-font-size:15px;
+}
+#root .text-field{
+    -fx-background-color:transparent;
+    -fx-padding:10px;
+    -fx-border-color:#CCC;
+}
+#root .combo-box{
+    -fx-background-color:transparent;
+    -fx-padding:10px;
+    -fx-border-color:#CCC;
+    -fx-pref-width:500px;
+}
+#cancel{
+    -fx-background-color:#0000bf;
+    -fx-pref-width:80px;
+    -fx-pref-height:40px;
+    -fx-text-alignment:CENTER;
+    -fx-text-fill:#FFF;
+    -fx-cursor:hand;
+    -fx-border-color:#0000bf;
+    -fx-font-weight:bolder;
+}
+#cancel:hover{
+    -fx-background-color:royalblue;
+     -fx-border-color:royalblue;
+}
+
+#ok{
+    -fx-background-color:#FFF;
+    -fx-pref-width:80px;
+    -fx-pref-height:40px;
+    -fx-text-alignment:CENTER;
+    -fx-cursor:hand;
+     -fx-border-color:#CCC;
+    -fx-font-weight:bolder;
+}
+#ok:hover{
+    -fx-background-color:#EEE;
+}

@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 15, 2020, 7:54:41 PM
+    Author     : user1
+*/
+
+#root{
+    -fx-background-color:#FFF;
+    -fx-border-color:#DDD;
+     -fx-padding:0px 0px 40px 0px;
+}
+#top{
+     -fx-padding:10px 20px 10px 20px;
+}
+#close{
+    -fx-cursor:hand;
+     -fx-font-size:15px;
+     -fx-font-weight:bolder;
+     -fx-text-fill:#000;
+}
+#title{
+    -fx-font-size:15px;
+     -fx-text-fill:#000;
+}
+#grid{
+    -fx-padding:20px 0px 0px 0px;
+}
+#screen{
+    -fx-background-color:transparent;
+    -fx-border-color:#000;
+    -fx-text-fill:#000;
+    -fx-alignment:CENTER_LEFT;
+    -fx-font-size:20px;
+    -fx-font-weight:bolder;
+    -fx-pref-width:320px;
+}
+#blue{
+    -fx-background-color:transparent;
+    -fx-border-color:#000;
+    -fx-font-size:18px;
+    -fx-text-fill:#000;
+    -fx-pref-width:80px;
+    -fx-font-weight:bolder;
+}
+#blue:hover{
+    -fx-border-color:#CCC;
+}
+#green{
+    -fx-background-color:transparent;
+    -fx-border-color:#000;
+    -fx-font-size:18px;
+    -fx-text-fill:#000;
+    -fx-pref-width:80px;
+    -fx-font-weight:bolder;
+}
+#green:hover{
+    -fx-border-color:#CCC;
+}
+#dark{
+    -fx-background-color:transparent;
+    -fx-border-color:#000;
+    -fx-font-size:18px;
+    -fx-text-fill:#000;
+    -fx-pref-width:80px;
+    -fx-font-weight:bolder;
+}
+#dark:hover{
+    -fx-border-color:#CCC;
+}
+#clear{
+    -fx-background-color:transparent;
+    -fx-border-color:#000;
+    -fx-font-size:18px;
+    -fx-text-fill:#000;
+    -fx-pref-width:160px;
+    -fx-font-weight:bolder;
+}
+#clear:hover{
+    -fx-border-color:#CCC;
+}

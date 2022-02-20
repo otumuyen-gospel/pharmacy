@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2020, 8:52:25 AM
+    Author     : user1
+*/
+
+#root{
+    -fx-background-color:#FFF;
+    -fx-border-color:#CCC;
+    -fx-padding:20px;
+}
+
+#invoice{
+    -fx-max-width:1000px;
+    -fx-background-color:#FFF;
+    -fx-padding:20px;
+}
+#invoiceTitle{
+    -fx-font-size:24px;
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+    -fx-font-weight:bold;
+    -fx-pref-width:1000px;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/invoicewhite.png");
+    -fx-graphic-text-gap:40px;
+}
+#table{
+    -fx-grid-lines-visible: true;
+    -fx-alignment: CENTER;
+}
+#table *{
+    -fx-padding: 15px;
+     -fx-wrap-text:true;
+     -fx-pref-width:250px;
+}
+#columnHeader{
+    -fx-font-weight:bolder;
+    -fx-text-fill: #333;
+    -fx-background-color: #FFF;
+}
+
+#addTitle{
+    -fx-font-size:24px;
+    -fx-padding:10px;
+    -fx-graphic:url("/juma/resources/invoiceblue.png");
+    -fx-graphic-text-gap:40px;
+}
+#invoice .text-field{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:525px;
+}
+#invoice .text-area{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:525px;
+     -fx-pref-height:80px;
+}
+#invoice .choice-box{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:525px;
+}
+#invoice .date-picker{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:525px;
+}
+#invoice .button{
+    -fx-font-weight:bolder;
+    -fx-text-fill: #FFF;
+    -fx-background-color: #0000bf;
+    -fx-font-size:18px;
+    -fx-pref-width:200px;
+}
+#invoice .button:hover{
+    -fx-background-color: royalblue;
+    -fx-text-fill: #FFF;
+}
+
+#search .text-field{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:600px;
+     
+}
+#search .label{
+    -fx-font-weight:bolder;
+    -fx-text-fill: #FFF;
+    -fx-background-color: #0000bf;
+    -fx-font-size:20px;
+    -fx-padding:9px;
+}
+#search .label:hover{
+    -fx-background-color: royalblue;
+    -fx-text-fill: #FFF;
+}
+
+

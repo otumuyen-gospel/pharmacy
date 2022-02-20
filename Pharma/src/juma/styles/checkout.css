@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2020, 8:52:25 AM
+    Author     : user1
+*/
+
+#top{
+      -fx-background-color:transparent;
+     -fx-padding:5px;
+}
+#close{
+    -fx-cursor:hand;
+     -fx-font-size:16px;
+     -fx-font-weight:bolder;
+}
+#title{
+    -fx-font-size:16px;
+}
+
+#root{
+    -fx-background-color:#FFF;
+    -fx-border-color:#DDD;
+    -fx-padding:20px;
+}
+
+#sales{
+    -fx-max-width:1000px;
+    -fx-background-color:#FFF;
+    -fx-padding:20px;
+}
+#salesTitle{
+    -fx-font-size:24px;
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+    -fx-font-weight:bold;
+    -fx-pref-width:1000px;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/saleswhite.png");
+    -fx-graphic-text-gap:40px;
+}
+
+#table{
+    -fx-grid-lines-visible: true;
+    -fx-alignment: CENTER_LEFT;
+}
+#table *{
+    -fx-padding: 5px;
+    -fx-wrap-text:true;
+    -fx-pref-width:300px;
+}
+#columnHeader{
+    -fx-text-fill: #333;
+    -fx-background-color: #FFF;
+    -fx-wrap-text:true;
+}
+
+#addTitle{
+    -fx-font-size:24px;
+    -fx-padding:10px;
+    -fx-graphic:url("/juma/resources/basketblue.png");
+    -fx-graphic-text-gap:40px;
+}
+
+
