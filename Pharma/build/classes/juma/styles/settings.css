@@ -1,0 +1,110 @@
+#top{
+      -fx-background-color:transparent;
+     -fx-padding:5px;
+}
+#close{
+    -fx-cursor:hand;
+     -fx-font-size:16px;
+     -fx-font-weight:bolder;
+}
+#title{
+    -fx-font-size:16px;
+}
+
+#root{
+    -fx-background-color:#FFF;
+    -fx-border-color:#DDD;
+    -fx-padding:20px;
+}
+
+#runners{
+    -fx-max-width:1000px;
+    -fx-background-color:#FFF;
+    -fx-padding:20px;
+}
+#runnersTitle{
+    -fx-font-size:24px;
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+    -fx-font-weight:bold;
+    -fx-pref-width:1000px;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/settingswhite.png");
+    -fx-graphic-text-gap:40px;
+}
+
+#table{
+    -fx-grid-lines-visible: true;
+    -fx-alignment: CENTER;
+}
+#table *{
+    -fx-padding: 10px;
+    -fx-wrap-text:true;
+}
+#columnHeader{
+    -fx-font-weight:bolder;
+    -fx-text-fill: #333;
+    -fx-background-color: #FFF;
+    -fx-pref-width:150px;
+}
+
+#addTitle{
+    -fx-font-size:24px;
+    -fx-padding:10px;
+    -fx-graphic:url("/juma/resources/settingsblue.png");
+    -fx-graphic-text-gap:40px;
+}
+#runners .text-field{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:400px;
+}
+#ip{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-min-width:900px;
+}
+#runners .text-area{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:400px;
+     -fx-pref-height:80px;
+}
+#runners .choice-box{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:525px;
+}
+#runners .date-picker{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+     -fx-pref-width:525px;
+}
+#runners .button{
+    -fx-font-weight:bolder;
+    -fx-text-fill: #FFF;
+    -fx-background-color: #0000bf;
+    -fx-font-size:18px;
+    -fx-pref-width:200px;
+}
+#runners .button:hover{
+    -fx-background-color: royalblue;
+    -fx-text-fill: #FFF;
+}
+
+#changephoto{
+    -fx-font-weight:bold;
+    -fx-font-size:18px;
+    -fx-cursor:hand;
+    -fx-text-fill:#0000bf;
+    -fx-graphic:url("/juma/resources/camera.png");
+    -fx-graphic-text-gap:10px;
+}
+#changephoto:hover{
+    -fx-text-fill:royalblue;
+}

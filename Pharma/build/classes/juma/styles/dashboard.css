@@ -1,0 +1,608 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 13, 2020, 12:30:17 PM
+    Author     : user1
+*/
+
+#dashboard{
+    -fx-background-color:#EEE;
+}
+#top{
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+}
+#logo{
+    -fx-text-fill:#FFF;
+    -fx-font-size:24px;
+    -fx-font-weight:bolder;
+}
+#account{
+    -fx-text-fill:#FFF;
+    -fx-font-size:18px;
+    -fx-font-weight:bolder;
+}
+#side{
+    -fx-background-color:#FFF;
+    -fx-pref-width:250px;
+    -fx-padding:10px 0px 10px 0px;
+    -fx-alignment:TOP_CENTER;
+}
+#photo{
+    -fx-padding:10px;
+    -fx-max-width:60px;
+    -fx-pref-height:60px;
+    -fx-alignment:Center;
+    -fx-cursor:hand;
+    
+}
+#profile3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/userblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#dash1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/dashboardblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#dash1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/dashboardwhite.png");
+}
+#dash2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/dashboardwhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#dash3{
+    -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/dashboardblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#sales1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/salesblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#sales1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/saleswhite.png");
+}
+#sales2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/saleswhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#sales3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/salesblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#brand1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/brandblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#brand1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/brandwhite.png");
+}
+#brand2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/brandwhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#brand3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/brandblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#blank3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/keyblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#product1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/productblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#product1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/productwhite.png");
+}
+#product2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/productwhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#product3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/productblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#supplier1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/supplierblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#supplier1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/supplierwhite.png");
+}
+#supplier2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/supplierwhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#supplier3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/supplierblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#salesQuery1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/invoiceblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#salesQuery1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/invoicewhite.png");
+}
+#salesQuery2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/invoicewhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#salesQuery3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/invoiceblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#backup1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/backupblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#backup1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/backupwhite.png");
+}
+#backup2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/backupwhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#backup3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/backupblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#settings1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/settingsblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#settings1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/settingswhite.png");
+}
+#settings2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/settingswhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#settings3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/settingsblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#runners1{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/userblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#runners1:hover{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/userwhite.png");
+}
+#runners2{
+     -fx-background-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+     -fx-cursor:hand;
+    -fx-graphic:url("/juma/resources/userwhite.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+#runners3{
+     -fx-background-color:#FFF;
+    -fx-text-fill:#0000bf;
+    -fx-pref-width:inherit;
+     -fx-padding: 15px;
+    -fx-graphic:url("/juma/resources/userblue.png");
+    -fx-graphic-text-gap:10px;
+    -fx-font-size:20px;
+}
+
+#link{
+    -fx-max-height:52px;
+    -fx-background-color:royalblue;
+}
+#profile:hover{
+    -fx-cursor:hand;
+}
+#stack{
+    -fx-cursor:hand;
+}
+#notifier{
+    -fx-background-color:#CCC;
+    -fx-font-weight:bolder;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-font-size:12px;
+    -fx-text-fill:#0000bf;
+    -fx-alignment:Center;
+    -fx-background-radius:100%;
+}
+#box1{
+    -fx-pref-width:300px;
+    -fx-pref-height:200px;
+    -fx-background-color:#FFF;
+    -fx-border-color:#EEE;
+    -fx-border-width:2px;
+    -fx-text-fill:#0000bf;
+    -fx-text-alignment:CENTER;
+    -fx-font-size:20px;
+    -fx-graphic:url("/juma/resources/invoiceblue.png");
+    -fx-graphic-text-gap:40px;
+    -fx-content-display:BOTTOM;
+}
+#box1:hover{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/invoicewhite.png");
+    -fx-set-graphic-text-gap:40px;
+    -fx-set-content-display:BOTTOM;
+}
+
+#box2{
+    -fx-pref-width:300px;
+    -fx-pref-height:200px;
+    -fx-background-color:#FFF;
+    -fx-border-color:#EEE;
+    -fx-border-width:2px;
+    -fx-text-fill:#0000bf;
+    -fx-text-alignment:CENTER;
+    -fx-font-size:20px;
+    -fx-graphic:url("/juma/resources/productblue.png");
+    -fx-graphic-text-gap:40px;
+    -fx-content-display:BOTTOM;
+}
+#box2:hover{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/productwhite.png");
+    -fx-set-graphic-text-gap:40px;
+    -fx-set-content-display:BOTTOM;
+}
+
+
+#box3{
+    -fx-pref-width:300px;
+    -fx-pref-height:200px;
+    -fx-background-color:#FFF;
+    -fx-border-color:#EEE;
+    -fx-border-width:2px;
+    -fx-text-fill:#0000bf;
+    -fx-text-alignment:CENTER;
+    -fx-font-size:20px;
+    -fx-graphic:url("/juma/resources/userblue.png");
+    -fx-graphic-text-gap:40px;
+    -fx-content-display:BOTTOM;
+}
+#box3:hover{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/userwhite.png");
+    -fx-set-graphic-text-gap:40px;
+    -fx-set-content-display:BOTTOM;
+}
+
+#box4{
+    -fx-pref-width:300px;
+    -fx-pref-height:200px;
+    -fx-background-color:#FFF;
+    -fx-border-color:#EEE;
+    -fx-border-width:2px;
+    -fx-text-fill:#0000bf;
+    -fx-text-alignment:CENTER;
+    -fx-font-size:20px;
+    -fx-graphic:url("/juma/resources/supplierblue.png");
+    -fx-graphic-text-gap:40px;
+    -fx-content-display:BOTTOM;
+}
+#box4:hover{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/supplierwhite.png");
+    -fx-set-graphic-text-gap:40px;
+    -fx-set-content-display:BOTTOM;
+}
+
+#box5{
+    -fx-pref-width:300px;
+    -fx-pref-height:200px;
+    -fx-background-color:#FFF;
+    -fx-border-color:#EEE;
+    -fx-border-width:2px;
+    -fx-text-fill:#0000bf;
+    -fx-text-alignment:CENTER;
+    -fx-font-size:20px;
+    -fx-graphic:url("/juma/resources/calculatorblue.png");
+    -fx-graphic-text-gap:40px;
+    -fx-content-display:BOTTOM;
+}
+#box5:hover{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/calculatorwhite.png");
+    -fx-set-graphic-text-gap:40px;
+    -fx-set-content-display:BOTTOM;
+}
+
+#box6{
+    -fx-pref-width:300px;
+    -fx-pref-height:200px;
+    -fx-background-color:#FFF;
+    -fx-border-color:#EEE;
+    -fx-border-width:2px;
+    -fx-text-fill:#0000bf;
+    -fx-text-alignment:CENTER;
+    -fx-font-size:20px;
+    -fx-graphic:url("/juma/resources/userblue.png");
+    -fx-graphic-text-gap:40px;
+    -fx-content-display:BOTTOM;
+}
+#box6:hover{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/userwhite.png");
+    -fx-set-graphic-text-gap:40px;
+    -fx-set-content-display:BOTTOM;
+}
+
+#profileBox{
+    -fx-max-width:1000px;
+    -fx-background-color:#FFF;
+    -fx-padding:20px;
+}
+#proTitle{
+    -fx-font-size:24px;
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+    -fx-font-weight:bold;
+    -fx-pref-width:1000px;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/userwhite.png");
+    -fx-graphic-text-gap:40px;
+}
+#passTitle{
+    -fx-font-size:24px;
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+    -fx-font-weight:bold;
+    -fx-pref-width:1000px;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/unlockwhite.png");
+    -fx-graphic-text-gap:40px;
+}
+#picTitle{
+    -fx-font-size:24px;
+    -fx-background-color:#0000bf;
+    -fx-padding:10px;
+    -fx-font-weight:bold;
+    -fx-pref-width:1000px;
+    -fx-text-fill:#FFF;
+    -fx-graphic:url("/juma/resources/userwhite.png");
+    -fx-graphic-text-gap:40px;
+}
+#attach{
+    -fx-cursor:hand;
+    -fx-font-size:14px;
+    -fx-pref-width:200px;
+    -fx-wrap-text:true;
+    -fx-text-fill:royalblue;
+    -fx-background-color:transparent;
+}
+#attach:hover{
+    -fx-text-fill:dodgerblue;
+}
+#field{
+    -fx-font-size:20px;
+     -fx-background-color:#FFF;
+     -fx-border-color:#CCC;
+}
+#grayed{
+    -fx-font-size:16px;
+    -fx-font-weight:bold;
+     -fx-background-color:#FFF;
+     -fx-border-color:#FFF;
+}
+#profileBox .button{
+    -fx-background-color:#0000bf;
+    -fx-border-color:#0000bf;
+    -fx-font-size:18px;
+     -fx-text-fill:#CCC;
+     -fx-cursor:hand;
+     -fx-pref-width:200px;
+}
+#profileBox .button:hover{
+    -fx-background-color:blue;
+    -fx-border-color:blue;
+    -fx-text-fill:#FFF;
+}
+#changephoto{
+    -fx-font-weight:bold;
+    -fx-font-size:18px;
+    -fx-cursor:hand;
+    -fx-text-fill:#0000bf;
+    -fx-graphic:url("/juma/resources/camera.png");
+    -fx-graphic-text-gap:10px;
+}
+#changephoto:hover{
+    -fx-text-fill:royalblue;
+}
